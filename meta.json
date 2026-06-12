@@ -1,0 +1,60 @@
+{
+  "best_model": "SVM",
+  "classes": [
+    "Bream",
+    "Parkki",
+    "Perch",
+    "Pike",
+    "Roach",
+    "Smelt",
+    "Whitefish"
+  ],
+  "features": [
+    "Weight",
+    "Length1",
+    "Length2",
+    "Length3",
+    "Height",
+    "Width"
+  ],
+  "results": [
+    {
+      "Mod\u00e8le": "k-NN",
+      "CV Accuracy": 0.8271,
+      "Accuracy": 0.8125,
+      "Precision": 0.8016,
+      "Recall": 0.8125,
+      "F1-score": 0.8041
+    },
+    {
+      "Mod\u00e8le": "Arbre de d\u00e9cision",
+      "CV Accuracy": 0.74,
+      "Accuracy": 0.8125,
+      "Precision": 0.8078,
+      "Recall": 0.8125,
+      "F1-score": 0.8058
+    },
+    {
+      "Mod\u00e8le": "Random Forest",
+      "CV Accuracy": 0.7637,
+      "Accuracy": 0.8125,
+      "Precision": 0.7891,
+      "Recall": 0.8125,
+      "F1-score": 0.7991
+    },
+    {
+      "Mod\u00e8le": "SVM",
+      "CV Accuracy": 0.9292,
+      "Accuracy": 0.9688,
+      "Precision": 0.9437,
+      "Recall": 0.9688,
+      "F1-score": 0.9549
+    }
+  ],
+  "params": {
+    "k-NN": "{'metric': 'euclidean', 'n_neighbors': 1}",
+    "Arbre de d\u00e9cision": "{'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 5}",
+    "Random Forest": "{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}",
+    "SVM": "{'C': 100, 'gamma': 'scale', 'kernel': 'linear'}"
+  }
+}
