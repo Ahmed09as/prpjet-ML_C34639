@@ -5,20 +5,20 @@ Application Streamlit déployable en ligne, basée sur le pipeline du notebook `
 ## 📁 Structure du projet
 
 ```
-fish_streamlit_app/
+prpjet-ML_C34639/
 ├── app.py                  ← Application Streamlit principale
 ├── requirements.txt        ← Dépendances Python
 ├── README.md               ← Ce fichier
+├── Classification de qualité du poisson(C34639).ipynb  ← Notebook jupyter
 ├── Fish.csv                ← Dataset original
-└── models/
-    ├── scaler.pkl          ← StandardScaler (fit sur X_train)
-    ├── label_encoder.pkl   ← LabelEncoder des espèces
-    ├── model_knn.pkl       ← Meilleur k-NN (GridSearchCV)
-    ├── model_dt.pkl        ← Meilleur Arbre de décision (GridSearchCV)
-    ├── model_rf.pkl        ← Meilleur Random Forest (GridSearchCV)
-    ├── model_svm.pkl       ← Meilleur SVM (GridSearchCV)
-    ├── best_model.pkl      ← Meilleur modèle global
-    └── meta.json           ← Métriques et hyperparamètres
+├── scaler.pkl          ← StandardScaler (fit sur X_train)
+├── label_encoder.pkl   ← LabelEncoder des espèces
+├── model_knn.pkl       ← Meilleur k-NN (GridSearchCV)
+├── model_dt.pkl        ← Meilleur Arbre de décision (GridSearchCV)
+├── model_rf.pkl        ← Meilleur Random Forest (GridSearchCV)
+├── model_svm.pkl       ← Meilleur SVM (GridSearchCV)
+├── best_model.pkl      ← Meilleur modèle global
+└── meta.json           ← Métriques et hyperparamètres
 ```
 
 ## 🚀 Déploiement sur Streamlit Community Cloud (GRATUIT)
