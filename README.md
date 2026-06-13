@@ -1,3 +1,4 @@
+# le lien de l'app :https://github.com/Ahmed09as/prpjet-ML_C34639
 # 🐟 Fish Species Classifier — Projet 8
 
 Application Streamlit déployable en ligne, basée sur le pipeline du notebook `Fish_Classification_Notebook.ipynb`.
