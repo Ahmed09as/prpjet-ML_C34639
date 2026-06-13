@@ -25,19 +25,16 @@ prpjet-ML_C34639/
 
 ### Étapes
 
-1. **Créer un dépôt GitHub public** et uploader tout le contenu de ce dossier
+1. Aller sur **[share.streamlit.io](https://share.streamlit.io)**
 
-2. Aller sur **[share.streamlit.io](https://share.streamlit.io)**
+2. Se connecter avec votre compte GitHub
 
-3. Se connecter avec votre compte GitHub
+3. Cliquer **"New app"** → sélectionner votre dépôt
 
-4. Cliquer **"New app"** → sélectionner votre dépôt
+4. **Main file path** : `app.py`
 
-5. **Main file path** : `app.py`
+5. Cliquer **"Deploy"** → l'app sera disponible en ~2 minutes
 
-6. Cliquer **"Deploy"** → l'app sera disponible en ~2 minutes
-
-URL de votre app : `https://votre-username-fish-classifier.streamlit.app`
 
 ## 💻 Lancement en local
 
